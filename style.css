@@ -2,8 +2,9 @@ html{
     background-color: black;
 }
 img{
-    height: 450px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
     border: 4pt solid red;
     margin-bottom: 40px;
 }
@@ -27,7 +28,8 @@ h2{
   text-transform: uppercase;
 }
 div{
-    width:50%;
-    margin-left: 25%;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
 }
